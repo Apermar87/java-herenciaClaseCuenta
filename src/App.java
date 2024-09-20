@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
+        @SuppressWarnings("resource")
         Scanner input = new Scanner(System.in);
         System.out.println("Cuenta de ahorros");
 

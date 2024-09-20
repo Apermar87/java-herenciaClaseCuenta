@@ -1,4 +1,5 @@
 public class CuentaAhorros extends CuentaBancaria {
+    @SuppressWarnings("unused")
     private boolean activa;
 
     public CuentaAhorros(float saldo, float tasaAnual) {
